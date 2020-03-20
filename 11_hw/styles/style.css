@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #1b5589 !important;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.title h1 {
+  font-family: Roboto;
+  font-weight: 300;
+}
+
+.wrapper {
+  margin-top: 20px;
+}
+
+.alert {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+
+.alert span {
+  text-transform: uppercase;
+}
+
+.btn {
+  width: 100%
+}
+
+input {
+  margin-bottom: 15px !important;
+}

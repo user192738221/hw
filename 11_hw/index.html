@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="#">ICON</a>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Homework</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Settings</a>
+        </li>
+      </ul>
+      <img src="img/av_64.png" alt="">
+    </div>
+  </nav>
+  <div class="container">
+    <div class="title">
+      <h1>Settings</h1>
+    </div>
+    <div class="alert alert-primary" role="alert">
+      <span>avatar</span>
+      <span>student's info</span>
+      <span>change password</span>
+    </div>
+    <div class="wrapper">
+      <div class="row">
+        <div class="col-3">
+          <form action="#">
+            <div class="img">
+              <img src="img/av_256.png" alt="">
+            </div>
+            <button type="button" class="btn btn-secondary">Choose photo</button>
+          </form>
+        </div>
+        <div class="col-5">
+          <form action="#">
+            <input type="text" class="form-control" placeholder="First name">
+            <input type="text" class="form-control" placeholder="Last name">
+            <input type="email" class="form-control" placeholder="Email">
+            <input type="number" class="form-control" placeholder="Phone number">
+            <input type="text" class="form-control" placeholder="Address">
+            <input type="text" class="form-control" placeholder="FB link">
+            <button type="button" class="btn btn-secondary">Save changes</button>
+          </form>
+        </div>
+        <div class="col-4">
+          <form action="#">
+            <input type="password" class="form-control" placeholder="Old password">
+            <input type="password" class="form-control" placeholder="New password">
+            <input type="password" class="form-control" placeholder="Repeat password">
+            <button type="button" class="btn btn-secondary">Change password</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
